@@ -1,0 +1,499 @@
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Black.eot');
+  src: url('./assets/fonts/madani/Madani-Black.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Black.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Black.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Black.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Black.svg#Madani-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-BlackOblique';
+  src: url('./assets/fonts/madani/Madani-BlackOblique.eot');
+  src: url('./assets/fonts/madani/Madani-BlackOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-BlackOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-BlackOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-BlackOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-BlackOblique.svg#Madani-BlackOblique') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-BoldOblique';
+  src: url('./assets/fonts/madani/Madani-BoldOblique.eot');
+  src: url('./assets/fonts/madani/Madani-BoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-BoldOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-BoldOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-BoldOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-BoldOblique.svg#Madani-BoldOblique') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-LightOblique';
+  src: url('./assets/fonts/madani/Madani-LightOblique.eot');
+  src: url('./assets/fonts/madani/Madani-LightOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-LightOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-LightOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-LightOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-LightOblique.svg#Madani-LightOblique') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-ExtraBoldOblique';
+  src: url('./assets/fonts/madani/Madani-ExtraBoldOblique.eot');
+  src: url('./assets/fonts/madani/Madani-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-ExtraBoldOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-ExtraBoldOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-ExtraBoldOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-ExtraBoldOblique.svg#Madani-ExtraBoldOblique') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-ExtraBold.eot');
+  src: url('./assets/fonts/madani/Madani-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-ExtraBold.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-ExtraBold.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-ExtraBold.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-ExtraBold.svg#Madani-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Bold.eot');
+  src: url('./assets/fonts/madani/Madani-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Bold.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Bold.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Bold.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Bold.svg#Madani-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-ExtraLight.eot');
+  src: url('./assets/fonts/madani/Madani-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-ExtraLight.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-ExtraLight.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-ExtraLight.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-ExtraLight.svg#Madani-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-ExtraLightOblique';
+  src: url('./assets/fonts/madani/Madani-ExtraLightOblique.eot');
+  src: url('./assets/fonts/madani/Madani-ExtraLightOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-ExtraLightOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-ExtraLightOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-ExtraLightOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-ExtraLightOblique.svg#Madani-ExtraLightOblique') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-MediumOblique';
+  src: url('./assets/fonts/madani/Madani-MediumOblique.eot');
+  src: url('./assets/fonts/madani/Madani-MediumOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-MediumOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-MediumOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-MediumOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-MediumOblique.svg#Madani-MediumOblique') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Regular.eot');
+  src: url('./assets/fonts/madani/Madani-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Regular.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Regular.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Regular.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Regular.svg#Madani-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Medium.eot');
+  src: url('./assets/fonts/madani/Madani-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Medium.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Medium.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Medium.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Medium.svg#Madani-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Light.eot');
+  src: url('./assets/fonts/madani/Madani-Light.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Light.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Light.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Light.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Light.svg#Madani-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MadaniObliqueVariable';
+  src: url('./assets/fonts/madani/MadaniObliqueVariable.eot');
+  src: url('./assets/fonts/madani/MadaniObliqueVariable.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/MadaniObliqueVariable.woff2') format('woff2'),
+    url('./assets/fonts/madani/MadaniObliqueVariable.woff') format('woff'),
+    url('./assets/fonts/madani/MadaniObliqueVariable.ttf') format('truetype'),
+    url('./assets/fonts/madani/MadaniObliqueVariable.svg#MadaniObliqueVariable') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-Oblique';
+  src: url('./assets/fonts/madani/Madani-Oblique.eot');
+  src: url('./assets/fonts/madani/Madani-Oblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Oblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Oblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Oblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Oblique.svg#Madani-Oblique') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-Thin.eot');
+  src: url('./assets/fonts/madani/Madani-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-Thin.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-Thin.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-Thin.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-Thin.svg#Madani-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-ThinOblique';
+  src: url('./assets/fonts/madani/Madani-ThinOblique.eot');
+  src: url('./assets/fonts/madani/Madani-ThinOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-ThinOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-ThinOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-ThinOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-ThinOblique.svg#Madani-ThinOblique') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani-SemiBoldOblique';
+  src: url('./assets/fonts/madani/Madani-SemiBoldOblique.eot');
+  src: url('./assets/fonts/madani/Madani-SemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-SemiBoldOblique.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-SemiBoldOblique.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-SemiBoldOblique.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-SemiBoldOblique.svg#Madani-SemiBoldOblique') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MadaniUprightVariable';
+  src: url('./assets/fonts/madani/MadaniUprightVariable.eot');
+  src: url('./assets/fonts/madani/MadaniUprightVariable.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/MadaniUprightVariable.woff2') format('woff2'),
+    url('./assets/fonts/madani/MadaniUprightVariable.woff') format('woff'),
+    url('./assets/fonts/madani/MadaniUprightVariable.ttf') format('truetype'),
+    url('./assets/fonts/madani/MadaniUprightVariable.svg#MadaniUprightVariable') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Madani';
+  src: url('./assets/fonts/madani/Madani-SemiBold.eot');
+  src: url('./assets/fonts/madani/Madani-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/madani/Madani-SemiBold.woff2') format('woff2'),
+    url('./assets/fonts/madani/Madani-SemiBold.woff') format('woff'),
+    url('./assets/fonts/madani/Madani-SemiBold.ttf') format('truetype'),
+    url('./assets/fonts/madani/Madani-SemiBold.svg#Madani-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, #32313f 0, rgba(36, 36, 36, 0) 35%),
+    radial-gradient(circle at 80% 0%, #24354f 0, rgba(36, 36, 36, 0) 40%),
+    linear-gradient(135deg, #11131a, #1c1f2a 45%, #0f1118 100%);
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  color: #e8eaed;
+}
+
+.page__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.eyebrow {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #7aa0ff;
+  margin: 0;
+}
+
+.page__hero h1 {
+  font-family: 'Madani';
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin: 0;
+}
+
+.lede {
+  max-width: 720px;
+  margin: 0;
+  color: #c7ccdb;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.font-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1.25rem 1.2rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.font-card__meta h2 {
+  font-family: 'Madani';
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.font-card__meta span {
+  display: inline-block;
+  color: #9aa2b5;
+  font-size: 0.9rem;
+}
+
+.font-card__sample {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.madani-thin {
+  font-family: 'Madani';
+  font-weight: 100;
+}
+
+.madani-thin-oblique {
+  font-family: 'Madani-ThinOblique';
+  font-weight: 100;
+  font-style: italic;
+}
+
+.madani-extralight {
+  font-family: 'Madani';
+  font-weight: 200;
+}
+
+.madani-extralight-oblique {
+  font-family: 'Madani-ExtraLightOblique';
+  font-weight: 200;
+  font-style: italic;
+}
+
+.madani-light {
+  font-family: 'Madani';
+  font-weight: 300;
+}
+
+.madani-light-oblique {
+  font-family: 'Madani-LightOblique';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.madani-regular {
+  font-family: 'Madani';
+  font-weight: 400;
+}
+
+.madani-oblique {
+  font-family: 'Madani-Oblique';
+  font-weight: 400;
+  font-style: italic;
+}
+
+.madani-medium {
+  font-family: 'Madani';
+  font-weight: 500;
+}
+
+.madani-medium-oblique {
+  font-family: 'Madani-MediumOblique';
+  font-weight: 500;
+  font-style: italic;
+}
+
+.madani-semibold {
+  font-family: 'Madani';
+  font-weight: 600;
+}
+
+.madani-semibold-oblique {
+  font-family: 'Madani-SemiBoldOblique';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.madani-bold {
+  font-family: 'Madani';
+  font-weight: 700;
+}
+
+.madani-bold-oblique {
+  font-family: 'Madani-BoldOblique';
+  font-weight: 700;
+  font-style: italic;
+}
+
+.madani-extrabold {
+  font-family: 'Madani';
+  font-weight: 700;
+}
+
+.madani-extrabold-oblique {
+  font-family: 'Madani-ExtraBoldOblique';
+  font-weight: 700;
+  font-style: italic;
+}
+
+.madani-black {
+  font-family: 'Madani';
+  font-weight: 900;
+}
+
+.madani-black-oblique {
+  font-family: 'Madani-BlackOblique';
+  font-weight: 900;
+  font-style: italic;
+}
+
+.madani-variable-upright {
+  font-family: 'MadaniUprightVariable';
+  font-weight: 650;
+  font-variation-settings: 'wght' 650;
+}
+
+.madani-variable-oblique {
+  font-family: 'MadaniObliqueVariable';
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings: 'wght' 700;
+}
